@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  background-color: #e6e4d5;
+}
+
+.director-card {
+  padding: 0 !important;
+  display: flex !important;
+  // justify-content: center !important;
+  align-items: center !important;
+  // overflow: hidden !important;
+  max-height: 250px !important;
+  max-width: 800px;
+  background-attachment: scroll;
+  
+}

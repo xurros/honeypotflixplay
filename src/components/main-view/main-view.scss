@@ -1,0 +1,98 @@
+$lblue: rgb(226, 234, 252);
+$dblue: rgb(76, 94, 133);
+$mblue: rgb(106, 130, 183);
+$brown: rgb(74, 62, 66);
+$cream: rgb(248, 237, 235);
+$white: rgb(255, 255, 255);
+
+:root {
+  --surface-color: $white;
+  --curve: 40;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 1.4em;
+  text-align: center;
+}
+
+a {
+  color: $dblue;
+}
+
+button {
+  border: none;
+  margin: 5px;
+}
+
+body {
+  background-color: $lblue;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.btn-primary {
+  background-color: $mblue !important;
+  border-color: $mblue !important;
+  &:hover {
+    background-color: $dblue !important;
+    border-color: $dblue !important;
+  }
+}
+
+.btn-outline-primary {
+  color: $mblue !important;
+  border-color: $mblue !important;
+  &:hover {
+    color: $white !important;
+    background-color: $mblue !important;
+  }
+}
+
+.button {
+  background-color: $dblue !important;
+  border-color: $dblue !important;
+  &:hover {
+    background-color: $lblue !important;
+    border-color: $lblue !important;
+  }
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.card {
+  color: $brown;
+  margin-bottom: 2rem;
+}
+
+.card-header {
+  padding: 2em;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  max-height: 250px;
+}
+
+.card-body {
+  color: $brown;
+  padding: 1rem 2rem 2rem;
+}
+
+.card-footer {
+  text-align: center;
+  background-color: $white;
+  border: none;
+}

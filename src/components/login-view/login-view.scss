@@ -1,0 +1,28 @@
+
+@media all and (min-width: 320px) {
+
+  
+
+  
+  * {
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif; 
+  }
+  
+  
+  input.form-control {
+    background-color: #d7dcdf;
+  }
+  
+  ::placeholder {
+    font-size: 12px;
+  }
+  
+  .login {
+    padding: 0px;
+    font-family: "Be Vietnam Pro" sans-serif;
+    font-weight: 200;
+    // min-width: 300px;
+  }
+  
+  }

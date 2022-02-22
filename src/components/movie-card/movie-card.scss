@@ -1,0 +1,90 @@
+
+
+$dblue: rgb(106, 130, 183);
+$lblue: rgb(240, 237, 248);
+$orange: rgb(228, 140, 39);
+$brown: rgb(74, 62, 66);
+$cream: rgb(247, 247, 234);
+$white: rgb(255, 255, 255);
+
+.card {
+  position: relative;
+  border: none !important;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.card__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  z-index: 1;
+  transform: translateY(100%);
+  transition: 0.2s ease-in-out;
+}
+
+.card:hover .card__overlay {
+  transform: translateY(0);
+}
+
+.card__header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 10px;
+  background-color: $cream;
+  transform: translateY(-100%);
+  transition: 0.2s ease-in-out;
+}
+
+.card__header-text, .card__genre {
+  background-color: transparent;
+}
+.card:hover .card__header {
+  transform: translateY(0);
+}
+
+.card-title {
+  font-family: 'Be Vietnam Pro', sans-serif !important;
+  font-size: 1.15em !important;
+  margin: 0 0 0.3em !important;
+  color: $dblue !important;
+}
+
+.card__genre {
+  display: block;
+  font-size: 0.8em;
+  color: $brown;
+}
+
+.card__description { 
+  padding: 0 5px 3px !important;
+  margin: 2px !important;
+  color: $brown !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-line-clamp: 3 !important;
+  overflow: hidden !important;
+}
+
+
+.card_description, p{
+  background-color: transparent;
+} 
+
+.card_description Button{
+  font-size: 12px;
+} 
+
+.btn-link {
+  padding: 0 2em 1em !important;
+  margin: 0 !important;
+  color: $dblue !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-line-clamp: 3 !important;
+  overflow: hidden !important;
+}

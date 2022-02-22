@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  background-color: #d1cfbf;
+}
+
+
+$lblue: rgb(240, 237, 248);
+$orange: rgb(228, 140, 39);
+$brown: rgb(74, 62, 66);
+$cream: rgb(248, 237, 235);
+$white: rgb(255, 255, 255);
+
+.navbar-light .navbar-toggler {
+  color: $orange;
+  border: none;
+}
+
+.nav-link {
+  color: $orange;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $orange;
+}
+
+#main-title, h1, h4 {
+  font-family: "Cedarville Cursive", cursive;
+  margin-left: 10px;
+  letter-spacing: 2px;
+  color:rgb(94, 93, 97);
+}
+
+#basic-navbar-nav {
+  margin-left: 30px;
+}

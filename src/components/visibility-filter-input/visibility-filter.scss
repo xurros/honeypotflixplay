@@ -1,0 +1,15 @@
+$lblue: rgb(226, 234, 252);
+$dblue: rgb(106, 130, 183);
+$brown: rgb(74, 62, 66);
+$cream: rgb(248, 237, 235);
+$white: rgb(255, 255, 255);
+
+.search-bar {
+  background-color: $white !important;
+  border-radius: 0.9rem;
+  border: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  :focus {
+    box-shadow: 0 0 0 0.2rem rgb(74, 62, 66, 25%);
+  }
+}

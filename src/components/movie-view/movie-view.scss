@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.movie-carousel {
+  padding: 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  overflow: hidden !important;
+  max-height: 350px !important;
+}
+
+.carousel {
+  object-fit:cover;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
