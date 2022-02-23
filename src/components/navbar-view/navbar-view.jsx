@@ -29,18 +29,21 @@ export function NavbarView({ user }) {
     <Navbar className="main-nav" sticky="top" expand="lg" variant="light">
       <Container fluid>
 
+        <h3 id="main-title"> HONEYPOTFLIX</h3>
+
         <Navbar.Brand id="logo">
           <Link to={`/`}>
+
             <img
               className="d-inline-block align-top"
               alt="Studio Ghibli Logo"
               src={require('../../img/logotext.svg')}
-              width="65"
-              height="auto"
+              width="55"
+              style={{ marginBottom: "25px" }}
             />{' '}
           </Link>
         </Navbar.Brand>
-        <h3 id="main-title"> HONEYPOTFLIX</h3>
+
 
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
