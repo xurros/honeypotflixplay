@@ -30,7 +30,7 @@ export class MovieCard extends React.Component {
             <Card.Text class="card__description">{movie.Description}</Card.Text>
             <Card.Text>
               <Link to={`/movies/${movie._id}`}>
-                <Button class="card__description" variant="link" style={{ fontSize: "12px", textDecoration: "none" }}>
+                <Button class="card__description" variant="link" style={{ fontSize: "14px", textDecoration: "none" }}>
                   more
                 </Button>
               </Link>

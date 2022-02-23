@@ -176,7 +176,7 @@ export class ProfileView extends React.Component {
           <Col>
             <Card className="update-profile">
               <Card.Body>
-                <Card.Title>Profile</Card.Title>
+                <Card.Title>User Profile</Card.Title>
                 <Form
                   className="update-form"
                   onSubmit={(e) =>
@@ -190,7 +190,7 @@ export class ProfileView extends React.Component {
                   }
                 >
                   <Form.Group>
-                    <Form.Label>Username</Form.Label>
+                    <Form.Label style={{ marginTop: "15px" }}>Username</Form.Label>
                     <Form.Control
                       type="text"
                       name="Username"
@@ -202,7 +202,7 @@ export class ProfileView extends React.Component {
                   </Form.Group>
 
                   <Form.Group>
-                    <Form.Label>Password</Form.Label>
+                    <Form.Label style={{ marginTop: "15px" }}>Password</Form.Label>
                     <Form.Control
                       type="password"
                       name="Password"
@@ -214,7 +214,7 @@ export class ProfileView extends React.Component {
                   </Form.Group>
 
                   <Form.Group>
-                    <Form.Label>Email</Form.Label>
+                    <Form.Label style={{ marginTop: "15px" }}>Email</Form.Label>
                     <Form.Control
                       type="email"
                       name="Email"
@@ -226,7 +226,7 @@ export class ProfileView extends React.Component {
                   </Form.Group>
 
                   <Form.Group>
-                    <Form.Label>Birthday</Form.Label>
+                    <Form.Label style={{ marginTop: "15px" }}>Birthday</Form.Label>
                     <Form.Control
                       type="date"
                       name="Birthday"
@@ -248,9 +248,10 @@ export class ProfileView extends React.Component {
 
         <Row style={{ marginTop: "20px" }}>
           <Col>
-            <h4>{Username} Favorite Movies</h4>
+            <h5>{Username + "'s"} Favorite Movies</h5>
           </Col>
         </Row>
+        
         <Row>
           <Col>
             <Card.Body>

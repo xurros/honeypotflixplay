@@ -40,7 +40,7 @@ export function NavbarView({ user }) {
             />{' '}
           </Link>
         </Navbar.Brand>
-        <h5 id="main-title"> honeypotflix</h5>
+        <h3 id="main-title"> HONEYPOTFLIX</h3>
 
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

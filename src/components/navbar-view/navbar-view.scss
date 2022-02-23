@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
-  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   background-color: #d1cfbf;
 }
 
@@ -24,8 +25,9 @@ $white: rgb(255, 255, 255);
   color: $orange;
 }
 
-#main-title, h1, h4 {
-  font-family: "Cedarville Cursive", cursive;
+#main-title, h1, h2, h3, h4, h5{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 900;
   margin-left: 10px;
   letter-spacing: 2px;
   color:rgb(94, 93, 97);
