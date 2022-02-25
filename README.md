@@ -1,5 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%23F7A12C&duration=5500&width=550&lines=hello+!+thank+you+for+visiting+honeypotflix+app+repository)](https://git.io/typing-svg)
-
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2373571B&lines=hello!;thank+you+for+visiting;honeypotflixplay+app+repo)](https://git.io/typing-svg)
 
 # honeypotflixplay 
 
