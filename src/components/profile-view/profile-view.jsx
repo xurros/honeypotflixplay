@@ -251,7 +251,7 @@ export class ProfileView extends React.Component {
             <h5>{Username + "'s"} Favorite Movies</h5>
           </Col>
         </Row>
-        
+
         <Row>
           <Col>
             <Card.Body>

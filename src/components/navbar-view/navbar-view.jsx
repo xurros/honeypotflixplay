@@ -31,11 +31,12 @@ export function NavbarView({ user }) {
     <Navbar className="main-nav" sticky="top" expand="lg" variant="light">
 
       <Container fluid>
-        <h3 id="main-title"> <span>honeypot</span>flix</h3>
+        <Nav.Link id="main-title" href="/">
+          <h3 style={{ "fontWeight": "900" }}><span>honeypot</span>flix</h3>
+        </Nav.Link>
 
         <Navbar.Brand id="logo">
           <Link to={`/`}>
-
             <img
               className="d-inline-block align-top"
               alt="Studio Ghibli Logo"
@@ -46,6 +47,9 @@ export function NavbarView({ user }) {
           </Link>
 
         </Navbar.Brand>
+
+
+
 
         <Navbar.Toggle aria-controls="justify-content-end" />
         <Navbar.Collapse id="justify-content-end">
@@ -69,6 +73,6 @@ export function NavbarView({ user }) {
 
         </Navbar.Collapse>
       </Container>
-    </Navbar >
+    </Navbar>
   );
 }
