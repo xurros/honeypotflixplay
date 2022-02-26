@@ -78,16 +78,16 @@ export class MovieView extends React.Component {
               <h4>{movie.Title}</h4>
             </Card.Text>
 
-            <Card.Text>
+            <Card.Text >
               Genre:{` `}
-              <Link to={`/genres/${movie.Genre.Name}`}>
+              <Link to={`/genres/${movie.Genre.Name}`} style={{ "color": "#567879" }}>
                 {movie.Genre.Name}
               </Link>
             </Card.Text>
 
             <Card.Text>
               Director:{` `}
-              <Link to={`/directors/${movie.Director.Name}`}>
+              <Link to={`/directors/${movie.Director.Name}`} style={{ "color": "#567879" }}>
                 {movie.Director.Name}
               </Link>
             </Card.Text>

@@ -1,13 +1,26 @@
-$lblue: rgb(226, 234, 252);
-$dblue: rgb(76, 94, 133);
-$mblue: rgb(106, 130, 183);
+
+
+$dblue: rgb(106, 130, 183);
+$lblue: rgb(240, 237, 248);
+$lorange: rgb(251, 169, 44);
+$peach: rgb(252, 112, 97);
 $brown: rgb(74, 62, 66);
-$cream: rgb(248, 237, 235);
-$white: rgb(255, 255, 255);
+$white: rgb(252, 244, 239);
+$navy: rgb(48, 49, 121);
+$grey: rgb(158, 158, 158);
+$lpurple: rgb(200, 195, 204);
+$lgreen: rgb(140, 163, 163);
+$dgreen: rgb(72, 79, 79);
+$maroon: rgb(86, 63, 70);
+$cream: rgb(250, 249, 246);
+$beige: rgb(200, 183, 166);
+$periwinkle: rgb(125, 148, 181);
+$dustyrose: rgb( 194, 149, 145);
+$maroonbrown: rgb( 112, 63, 55);
+$mutedgreen: rgb( 182, 193, 153);
 
 :root {
   --surface-color: $white;
-  --curve: 40;
 }
 
 * {
@@ -15,7 +28,6 @@ $white: rgb(255, 255, 255);
 }
 
 h2 {
-  font-size: 1.4em;
   text-align: center;
 }
 
@@ -38,8 +50,8 @@ body {
 }
 
 .btn-primary {
-  background-color: $mblue !important;
-  border-color: $mblue !important;
+  background-color: $dblue !important;
+  border-color: $dblue !important;
   &:hover {
     background-color: $dblue !important;
     border-color: $dblue !important;
@@ -47,13 +59,14 @@ body {
 }
 
 .btn-outline-primary {
-  color: $mblue !important;
-  border-color: $mblue !important;
+  color: $navy !important;
+  border-color: $lblue !important;
   &:hover {
-    color: $white !important;
-    background-color: $mblue !important;
+    color: $cream !important;
+    background-color: $peach !important;
   }
 }
+
 
 .button {
   background-color: $dblue !important;
@@ -71,7 +84,7 @@ body {
 }
 
 .card {
-  color: $brown;
+  color: $navy;
   margin-bottom: 2rem;
 }
 

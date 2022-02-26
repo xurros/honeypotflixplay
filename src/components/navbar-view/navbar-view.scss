@@ -1,36 +1,53 @@
+
+
+$dblue: rgb(106, 130, 183);
+$lblue: rgb(240, 237, 248);
+$lorange: rgb(251, 169, 44);
+$peach: rgb(252, 112, 97);
+$brown: rgb(74, 62, 66);
+$white: rgb(252, 244, 239);
+$navy: rgb(48, 49, 121);
+$grey: rgb(158, 158, 158);
+$lpurple: rgb(200, 195, 204);
+$lgreen: rgb(140, 163, 163);
+$dgreen: rgb(72, 79, 79);
+$maroon: rgb(86, 63, 70);
+$cream: rgb(220, 215, 199);
+$beige: rgb(200, 183, 166);
+$periwinkle: rgb(125, 148, 181);
+$dustyrose: rgb( 194, 149, 145);
+$maroonbrown: rgb( 112, 63, 55);
+$mutedgreen: rgb( 182, 193, 153);
+
+
 * {
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 300;
-  background-color: #d1cfbf;
+  // background-color: #d1cfbf;
+
+  background-color: $cream;
 }
 
-
-$lblue: rgb(240, 237, 248);
-$orange: rgb(228, 140, 39);
-$brown: rgb(74, 62, 66);
-$cream: rgb(248, 237, 235);
-$white: rgb(255, 255, 255);
-
 .navbar-light .navbar-toggler {
-  color: $orange;
+  color: $lorange;
   border: none;
 }
 
-.nav-link {
-  color: $orange;
+#justify-content-end .nav-link {
+  color: $maroonbrown;
 }
 
-.navbar-light .navbar-nav .nav-link {
-  color: $orange;
+.nav-link {
+  color: $lorange;
 }
 
 #main-title, h1, h2, h3, h4, h5{
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 900;
+  color: $lorange;
   margin-left: 10px;
   letter-spacing: 2px;
-  color:rgb(94, 93, 97);
 }
 
 #basic-navbar-nav {

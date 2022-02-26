@@ -1,3 +1,18 @@
+
+$dblue: rgb(106, 130, 183);
+$lblue: rgb(240, 237, 248);
+$lorange: rgb(251, 169, 44);
+$peach: rgb(252, 112, 97);
+$brown: rgb(74, 62, 66);
+$white: rgb(252, 244, 239);
+$navy: rgb(48, 49, 121);
+$grey: rgb(158, 158, 158);
+$cream: rgb(220, 215, 199);
+$beige: rgb(200, 183, 166);
+$periwinkle: rgb(125, 148, 181);
+$dustyrose: rgb( 194, 149, 145);
+$maroonbrown: rgb( 112, 63, 55);
+$mutedgreen: rgb( 182, 193, 153);
 * {
   box-sizing: border-box;
 }
@@ -20,3 +35,8 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.text-center{
+  font-family: "Barlow Semi Condensed";
+  }
+ 

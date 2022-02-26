@@ -113,15 +113,18 @@ export function RegistrationView(props) {
 
                 <Form.Group className="mb-2">
                   <Form.Label>Birthday:</Form.Label>
-                  <Form.Control type="date" value={birthday} onChange={e => setBirthday(e.target.value)} placeholder="Enter birthday" />
+                  <Form.Control type="date" value={birthday} onChange={e => setBirthday(e.target.value)} style={{ "fontSize": "12px" }} placeholder="Enter birthday" />
                 </Form.Group>
 
 
 
                 <div className="mt-3">
-                  <Button variant="primary" type="submit" onClick={handleSubmit}>Login</Button>
+                  <Button href="/" variant="primary">
+                    Login
+                  </Button>
+
                   <Link to="/register">
-                    <Button className="ml-4" variant="secondary">Register</Button>
+                    <Button className="ml-4" variant="secondary" type="submit" onClick={handleSubmit}>Register</Button>
                   </Link>
                 </div>
 

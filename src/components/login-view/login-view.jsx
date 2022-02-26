@@ -67,7 +67,7 @@ export function LoginView(props) {
 
         <Col xs lg="5">
           <Card className="login text-center">
-            <Card.Header>Log in to your honeypotflix account</Card.Header>
+            <Card.Header>Log in to your account</Card.Header>
             <Card.Body>
               <Form>
                 <Form.Group className="mb-2" controlId="formUsername">
