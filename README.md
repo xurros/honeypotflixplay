@@ -1,16 +1,19 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2373571B&lines=hello!;thank+you+for+visiting;honeypotflixplay+app+repo)](https://git.io/typing-svg)
+## 🎥 honeypotflixplay 
 
-# honeypotflixplay 
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%86BABD&lines=hello!;thank+you+for+visiting;honeypotflixplay+app+repo)](https://git.io/typing-svg)
 
 honeypotflixplay is the client-side app to be used in conjunction with the [movie_api5](https://xurros.github.io/movie_api5/) and it's also a replacement of myFlix-client.
 
-## Build Tools
+## 🛠️ Build Tools
 honeypotflixplay uses [Parcel](https://parceljs.org/docs/) to transpile JSX into JavaScript and SCSS into CSS, and bundle the project into as few files as possible to serve to the client. Parcel is currently set up in development mode. As such, the code is not minified.  
 To start the build tools, run the command `parcel src/index.html` in the powershell terminal. The project will be hosted at localhost:1234 and will have live-reload enabled.
-## Framework
+
+## 🧩 Framework
 This app uses [React](https://reactjs.org/docs/getting-started.html) as a framework to display all views in a single page.
-### Views
+
+### 👓 Views
+
 | View | Description |
 | --- | --- |
 | `<MainView>` | This is the main view that contains each other element. The main view displays a list of `<MovieCard>` elements when no movie is selected. Clicking on a movie title will update MainView.state.selectedMovie with the selected movie. This triggers the rendering of the appropriate `<MovieView>` in place of the list of list of `<MovieCard>`s. |
