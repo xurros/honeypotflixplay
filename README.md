@@ -1,7 +1,7 @@
 ## 🎥 honeypotflixplay 
 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%86BABD&lines=hello!;thank+you+for+visiting;honeypotflixplay+app+repo)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2386BABD&lines=hello!;thank+you+for+visiting;honeypotflixplay+app+repo)](https://git.io/typing-svg)
 
 honeypotflixplay is the client-side app to be used in conjunction with the [movie_api5](https://xurros.github.io/movie_api5/) and it's also a replacement of myFlix-client.
 
