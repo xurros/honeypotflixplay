@@ -6,10 +6,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.html",
-    "build": "parcel build index.html",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "parcel",
+    "build": "parcel src index.html"
   },
   "repository": {
     "type": "git",
