@@ -21,4 +21,4 @@ This app uses [React](https://reactjs.org/docs/getting-started.html) as a framew
 | `<MovieView>` | This element displays details for the movie passed into the `movie` parameter. The element has a back button, which when clicked, updated the `MainView.state.selectedMovie` to `null`, triggering the rendering of the list of `<MovieCard>` elements. |
 
 
-visit: https://main--honeypotflixplay.netlify.app/
+<img src="https://dribbble.com/shots/1940258-Animated-icon-camera?utm_source=Clipboard_Shot&utm_campaign=doretti-nicolas&utm_content=Animated%20icon%20%3A%20camera&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=doretti-nicolas&utm_content=Animated%20icon%20%3A%20camera&utm_medium=Social_Share" /> demo: https://main--honeypotflixplay.netlify.app/
