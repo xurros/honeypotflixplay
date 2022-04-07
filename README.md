@@ -22,4 +22,5 @@ This app uses [React](https://reactjs.org/docs/getting-started.html) as a framew
 
 
 
-<img src="https://download.logo.wine/logo/Netlify/Netlify-Logo.wine.png" width="85" /> demo: https://main--honeypotflixplay.netlify.app/
+<img src="https://download.logo.wine/logo/Netlify/Netlify-Logo.wine.png" width="95" />
+<br /> demo: https://main--honeypotflixplay.netlify.app/
