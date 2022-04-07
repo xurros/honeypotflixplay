@@ -23,4 +23,4 @@ This app uses [React](https://reactjs.org/docs/getting-started.html) as a framew
 
 
 <img src="https://github.com/xurros/assets/blob/main/netlify1.png" width="45" />
-<br /> demo: https://main--honeypotflixplay.netlify.app/
+ demo: https://main--honeypotflixplay.netlify.app/
